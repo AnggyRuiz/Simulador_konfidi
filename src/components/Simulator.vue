@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <h1>Konfidi</h1>
-    <h3>Simulador de Pagos Internacionales</h3>
+    <h3 style="text-align: center">Simulador de Pagos Internacionales</h3>
     <div style="display: none; width: 100%" id="tabla">
       <div class="container-table">
         <div class="bank">
@@ -272,6 +272,7 @@ input {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
 }
 .konfidi {
   font-size: 1.2em;
@@ -279,7 +280,7 @@ input {
   background-image: url("../assets/img/Morraca.png");
   background-repeat: no-repeat;
   text-align: center;
-  width: 44%;
+  width: 49%;
   margin-bottom: 0;
   height: 700px;
 }
