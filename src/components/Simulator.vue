@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-    <h1>Konfidi Fintech Api</h1>
-
+    <h1>Konfidi</h1>
+    <h3>Simulador de Pagos Internacionales</h3>
     <div style="display: none; width: 100%" id="tabla">
       <div class="container-table">
         <div class="bank">
@@ -89,7 +89,7 @@
         </div>
         <div class="title-center">
           <img
-            style="width: 45%; padding-left: 30%"
+            style="width: 45%; padding-left: 15%"
             src="../assets/img/globalization.svg"
             alt=""
           />
@@ -262,7 +262,7 @@ input {
 }
 .bank {
   box-shadow: 0px -21px 40px rgb(0 0 0 / 15%);
-  width: 20%;
+  width: 23%;
   text-align: center;
   border-radius: 7%;
   height: 500px;
@@ -279,7 +279,7 @@ input {
   background-image: url("../assets/img/Morraca.png");
   background-repeat: no-repeat;
   text-align: center;
-  width: 40%;
+  width: 44%;
   margin-bottom: 0;
   height: 700px;
 }
